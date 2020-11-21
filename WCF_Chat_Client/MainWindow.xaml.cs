@@ -99,5 +99,12 @@ namespace WCF_Chat_Client
                 tbUserName.Clear();
             tbUserName.Foreground = Brushes.Black;
         }
+
+        private void tbMessage_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (tbUserName.Text == "Write a message...")
+                tbUserName.Clear();
+            tbUserName.Foreground = Brushes.Black;
+        }
     }
 }
