@@ -11,7 +11,7 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="17*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="tbUserName"  HorizontalAlignment="Left" Height="30" Margin="128,10,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="610" RenderTransformOrigin="0.39,0.526" Grid.Column="1" GotFocus="tbUserName_GotFocus" Foreground="Gray"/>
+        <TextBox x:Name="tbUserName"  HorizontalAlignment="Left" Height="30" Margin="128,10,0,0" TextWrapping="Wrap" Text=" User Name" VerticalAlignment="Top" Width="610" RenderTransformOrigin="0.39,0.526" Grid.Column="1" GotFocus="tbUserName_GotFocus" Foreground="Gray"/>
         <Button x:Name="bConDiscon" Click="Button_Click" Content="Connect" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="148" Height="30" Grid.ColumnSpan="2"/>
         <ListBox x:Name="lbChat" HorizontalAlignment="Left" Height="273" Margin="10,54,0,0" VerticalAlignment="Top" Width="772" Grid.ColumnSpan="2"/>
         <TextBox IsEnabled="False" x:Name="tbMessage" HorizontalAlignment="Left" Height="77" Margin="10,332,0,0" TextWrapping="Wrap" Text="Write a message..." Foreground="Gray" VerticalAlignment="Top" Width="691" Grid.ColumnSpan="2" KeyDown="tbMessage_KeyDown" GotFocus="tbMessage_GotFocus"/>
